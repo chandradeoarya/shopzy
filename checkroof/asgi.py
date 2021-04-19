@@ -1,5 +1,5 @@
 """
-ASGI config for djackets_django project.
+ASGI config for checkroof project.
 
 It exposes the ASGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.asgi import get_asgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'djackets_django.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'checkroof.settings')
 
 application = get_asgi_application()
