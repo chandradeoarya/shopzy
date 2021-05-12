@@ -58,3 +58,33 @@ A few of the things you can do with Shopzy:
 - Cart: Advanced payment and tax options, with full control over discounts and promotions
 - Payments: Flexible API architecture allows integration of any payment method. It comes with Braintree support out of the box.
 - Cloud: Optimized for deployments on AWS using AWS Lambda, S3, API-gateway
+
+## Setup
+
+### Backend setup for local development
+
+```
+
+$ python3 -m venv venv
+
+''' activate virtual env '''
+$ source venv/bin/activate
+
+'''install dependencies'''
+$ pip3 install -r requirements.txt
+
+'''create migrations'''
+$ python manage.py makemigrations profiles risks
+
+'''migrate'''
+$ python manage.py migrate
+
+'''create super user'''
+$ python manage.py createsuperuser
+
+'''run development server on http://127.0.0.1:8000'''
+$ python manage.py runserver
+
+'''unit tests'''
+$ python manage.py test
+```
