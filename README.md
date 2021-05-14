@@ -88,3 +88,15 @@ $ python manage.py runserver
 '''unit tests'''
 $ python manage.py test
 ```
+
+#### setup frontend for local development
+
+```
+cd frontend
+
+''' install dependencies '''
+npm install
+
+''' serve with hot reload at http://127.0.0.1:8080 '''
+npm start
+```
