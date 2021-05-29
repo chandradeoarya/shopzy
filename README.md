@@ -59,44 +59,18 @@ A few of the things you can do with Shopzy:
 - Payments: Flexible API architecture allows integration of any payment method. It comes with Braintree support out of the box.
 - Cloud: Optimized for deployments on AWS using AWS Lambda, S3, API-gateway
 
-## Setup
+<p align="center">
+  <img src = "https://github.com/chandradeoarya/shopzy-storefront/blob/master/screenshots/home.png?raw=true" width=700>
+</p>
 
-### Backend setup for local development
+<p align="center">
+  <img src = "https://github.com/chandradeoarya/shopzy-storefront/blob/master/screenshots/product.png?raw=true" width=700>
+</p>
 
-```
+<p align="center">
+  <img src = "https://github.com/chandradeoarya/shopzy-storefront/blob/master/screenshots/cart.png?raw=true" width=700>
+</p>
 
-$ python3 -m venv venv
-
-''' activate virtual env '''
-$ source venv/bin/activate
-
-'''install dependencies'''
-$ pip3 install -r requirements.txt
-
-'''create migrations'''
-$ python manage.py makemigrations profiles risks
-
-'''migrate'''
-$ python manage.py migrate
-
-'''create super user'''
-$ python manage.py createsuperuser
-
-'''run development server on http://127.0.0.1:8000'''
-$ python manage.py runserver
-
-'''unit tests'''
-$ python manage.py test
-```
-
-#### setup frontend for local development
-
-```
-cd frontend
-
-''' install dependencies '''
-npm install
-
-''' serve with hot reload at http://127.0.0.1:8080 '''
-npm start
-```
+<p align="center">
+  <img src = "https://github.com/chandradeoarya/shopzy-storefront/blob/master/screenshots/payment.png?raw=true" width=700>
+</p>
