@@ -74,3 +74,33 @@ A few of the things you can do with Shopzy:
 <p align="center">
   <img src = "https://github.com/chandradeoarya/shopzy-storefront/blob/master/screenshots/payment.png?raw=true" width=700>
 </p>
+
+## Setup
+
+### Backend setup for local development
+
+```
+
+$ python3 -m venv venv
+
+''' activate virtual env '''
+$ source venv/bin/activate
+
+'''install dependencies'''
+$ pip3 install -r requirements.txt
+
+'''create migrations'''
+$ python manage.py makemigrations profiles risks
+
+'''migrate'''
+$ python manage.py migrate
+
+'''create super user'''
+$ python manage.py createsuperuser
+
+'''run development server on http://127.0.0.1:8000'''
+$ python manage.py runserver
+
+'''unit tests'''
+$ python manage.py test
+```
