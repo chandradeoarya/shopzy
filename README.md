@@ -5,12 +5,13 @@
 </p>
 
 <p align="center">
- <a href="https://test.html/" />
-  Live demo- coming soon
+ <a href="https://github.com/chandradeoarya/shopzy-storefront" />
+  Shopzy-storefront: <br>Github repo of Vuejs based frontend for Shopzy
 </p>
 
 <p align="center">
-  username: user <br> password: coming soon
+ <a href="https://test.html/" />
+  Live demo- coming soon
 </p>
 
 ## Table of Contents
