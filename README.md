@@ -117,3 +117,7 @@ npm install
 ''' serve with hot reload at http://127.0.0.1:8080 '''
 npm start
 ```
+
+## Build-and-Deployment
+
+The project has been built and deployed at [Shopzy demo with storefront](https://shopzy-storefront.vercel.app/).
