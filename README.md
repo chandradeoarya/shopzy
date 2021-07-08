@@ -121,3 +121,10 @@ npm start
 ## Build-and-Deployment
 
 The project has been built and deployed at [Shopzy demo with storefront](https://shopzy-storefront.vercel.app/).
+
+#### Making Backend ready for deployment
+
+1.  Set DEBUG= False in setting.py
+2.  Add public address and ip in allowed hosts
+3.  Please give a unique django secret key. eg. [django-secret-key-generator](https://miniwebtool.com/django-secret-key-generator/)
+4.  Add AWS S3 bucket url in CORS_ORIGIN_WHITELIST.
